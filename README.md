@@ -1,2 +1,2 @@
-# js-fundamentals-01
+# JS-fundamentals-01
 &mdash; basic fundamentals of javaScript!!

@@ -28,3 +28,11 @@ console.log(typeof indiaIsAReligiousCountry);
 console.log(typeof "India");
 console.log(typeof "Asia");
 console.log(typeof 1428.6);
+
+let isIsland = false;
+let language;
+
+console.log(typeof isIsland);
+console.log(typeof population);
+console.log(typeof country);
+console.log(typeof language);

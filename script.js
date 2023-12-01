@@ -67,8 +67,8 @@ console.log(ageIsha >= 18);
 const isFullAge = ageIsha >= 18;
 
 console.log(now - 2004 > now - 2006);
-*/
 
+//OPERATORS PRECEDENCE
 const now = 2023;
 const ageNeha = now - 2004;
 const ageIsha = now - 2006;
@@ -81,3 +81,16 @@ console.log(x, y);
 
 const averageAge = (ageNeha + ageIsha) / 2;
 console.log(ageNeha, ageIsha, averageAge);
+*/
+
+const massMark = 78;
+const heightMark = 1.69;
+const massJohn = 92;
+const heightJohn = 1.95;
+
+const bmiMark = massMark / heightMark ** 2;
+const bmiJohn = massJohn / heightJohn ** 2;
+
+const markHigherBMI = bmiMark > bmiJohn;
+
+console.log(bmiMark, bmiJohn);

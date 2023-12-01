@@ -10,7 +10,7 @@ let firstName = "Berry";
 console.log(firstName);
 console.log(firstName);
 console.log(firstName);
-*/
+
 
 // Assignment practice-1
 let country = "India";
@@ -36,3 +36,48 @@ console.log(typeof isIsland);
 console.log(typeof population);
 console.log(typeof country);
 console.log(typeof language);
+
+
+// MATH OPERATORS
+const now = 2023;
+const ageNeha = now - 2004;
+const ageIsha = now - 2006;
+console.log(ageNeha, ageIsha);
+
+console.log(ageNeha + 2, ageIsha / 10, 2 ** 4);
+// 2**4 means 2 to the power of 4 = 2 * 2 * 2 * 2
+
+const firstName = "Neha";
+const lastName = "Boyar";
+console.log(firstName + " " + lastName);
+
+// ASSIGNMENT OPERATORS
+let x = 10 + 5; //15
+x += 10; // x = x + 10 = 25
+x *= 4; // x = x * 4 = 100
+x++; // x = x + 1
+x--;
+x--;
+console.log(x);
+
+//COMPARISON OPERATORS
+console.log(ageNeha > ageIsha); // < , > >= , <=
+console.log(ageIsha >= 18);
+
+const isFullAge = ageIsha >= 18;
+
+console.log(now - 2004 > now - 2006);
+*/
+
+const now = 2023;
+const ageNeha = now - 2004;
+const ageIsha = now - 2006;
+
+console.log(now - 2004 > now - 2006);
+
+let x, y;
+x = y = 25 - 10 - 5; // x = y = 10, x = 10
+console.log(x, y);
+
+const averageAge = (ageNeha + ageIsha) / 2;
+console.log(ageNeha, ageIsha, averageAge);

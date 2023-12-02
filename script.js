@@ -83,6 +83,7 @@ const averageAge = (ageNeha + ageIsha) / 2;
 console.log(ageNeha, ageIsha, averageAge);
 */
 
+// Assignment practice-2
 const massMark = 78;
 const heightMark = 1.69;
 const massJohn = 92;
@@ -94,3 +95,42 @@ const bmiJohn = massJohn / heightJohn ** 2;
 const markHigherBMI = bmiMark > bmiJohn;
 
 console.log(bmiMark, bmiJohn);
+
+// Assignment practice-03
+
+if (bmiMark > bmiJohn) {
+  console.log(`Mark's BMI (${bmiMark}) is higher than John's! (${bmiJohn})`);
+} else {
+  console.log(`John's BMI (${bmiJohn}) is higher than Mark's! (${bmiMark})`);
+}
+
+/*
+// Sol-01
+// const age = 15;
+// const isOldEnough = age >= 18;
+
+// if (isOldEnough) {
+//   console.log("Isha can start driving 🚗");
+// }
+
+// Sol-02
+const age = 15;
+
+if (age >= 18) {
+  console.log("Isha can start driving 🚗");
+} else {
+  const yearsLeft = 18 - age;
+  console.log(`Isha is too young, Wait another ${yearsLeft} years :)`);
+}
+
+const birthYear = 1991;
+
+let century;
+if (birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+
+console.log(century);
+*/
